@@ -29,9 +29,9 @@ def get_shapes():
 def generate_quiz():
     list_text = []
     list_color = []
-    for i in shapes:
-        list_text.append(i["text"])
-        list_color.append(i["color"])
+    for shape in shapes:
+        list_text.append(shape["text"])
+        list_color.append(shape["color"])
     text = choice(list_text)
     color = choice(list_color)
     return [

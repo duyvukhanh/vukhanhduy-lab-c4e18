@@ -1,8 +1,8 @@
 def get_even_list(l):
     new_list = []
-    for i in range(len(l)):
-        if l[i] % 2 == 0:
-            new_list.append(l[i])
+    for numb in l:
+        if numb % 2 == 0:
+            new_list.append(numb)
     return new_list
 
 even_list = get_even_list([1, 2, 5, -10, 9, 6])
